@@ -6,7 +6,7 @@ When an analyst wants to study population change in major cities in the United S
 
 One may suggest to create two heatmap layers, one for high and the other for low (using an inverted color gradient from neutral to low), and load them in a map. However, this option is ineffective because of the visual interference to the bottom layer from the transparency of the top layer.
 
-Hilomap is a reference implementation of HTML5 canvas-based vector layer that hilights both low and high trends. Hilomap is based on OpenLayers 5.3.3 and should work for 5.x. OpenLayers 6+ uses WebGL, instead. The implementation is inspired by the direct point overlay method in  [LeafLet simpleheat](https://github.com/mourner/simpleheat/blob/gh-pages/simpleheat.js) and [OpenLayers 5.3.3 Heatmap](https://github.com/openlayers/openlayers/blob/272a3c6b11804f2721a0f3fef545d91d6ddf90b1/src/ol/layer/Heatmap.js) and the coarsened grid interpolation (indirect point overlay) method in [Leaflet.heat](https://github.com/Leaflet/Leaflet.heat/blob/gh-pages/src/HeatLayer.js). 
+Hilomap is a reference implementation of a HTML5 canvas-based vector layer that hilights both low and high trends. Hilomap is based on OpenLayers 5.3.3 and should work for 5.x. OpenLayers 6+ uses WebGL, instead. The implementation is inspired by the direct point overlay method in  [LeafLet simpleheat](https://github.com/mourner/simpleheat/blob/gh-pages/simpleheat.js) and [OpenLayers 5.3.3 Heatmap](https://github.com/openlayers/openlayers/blob/272a3c6b11804f2721a0f3fef545d91d6ddf90b1/src/ol/layer/Heatmap.js) and the coarsened grid interpolation (indirect point overlay) method in [Leaflet.heat](https://github.com/Leaflet/Leaflet.heat/blob/gh-pages/src/HeatLayer.js). 
 
 ## Installation
 
