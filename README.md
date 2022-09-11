@@ -40,6 +40,6 @@ cp HILODIR/examples/data/kml/uscities_sample.kml examples/
 npm run build-package && npm run build-examples
 ```
 
-The `hilomap` example can then be loaded in browser: https://HOST/OLPATH/build/examples/hilomap.html .
+The `hilomap` example can then be loaded in browser: `https://HOST/OLPATH/build/examples/hilomap.html`.
 
 
